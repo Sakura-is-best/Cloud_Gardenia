@@ -1,0 +1,428 @@
+ <link rel="stylesheet" href="./style.css">
+<script src="./index.js"></script>
+
+
+    <!-- 头部 -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                    <h1>探索中国之美</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-link active" data-page="home">首页</a></li>
+                        <li><a href="#" class="nav-link" data-page="provinces">省份景点</a></li>
+                        <li><a href="#" class="nav-link" data-page="travel-guide">研学指南</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- 首页 -->
+    <section id="home" class="page active">
+        <!-- 英雄区域 -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>探索中国之美</h2>
+                    <p>从北国雪原到南海碧波，从西部戈壁到东海之滨，发现中国34个省级行政区的独特魅力。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 省份导航 -->
+        <section class="province-nav">
+            <div class="container">
+                <div class="section-title">
+                    <h2>热门省份</h2>
+                </div>
+                <div class="province-list">
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="北京">北京</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="上海">上海</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="广东">广东</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="四川">四川</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="云南">云南</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="陕西">陕西</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="浙江">浙江</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="江苏">江苏</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="西藏">西藏</a>
+                    <a href="#" class="province-item nav-link" data-page="province-detail" data-province="新疆">新疆</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 特色景点区域 -->
+        <section class="featured-section">
+            <div class="container">
+                <div class="featured-title">
+                    <h2>精选特色景点</h2>
+                    <p>探索中国最具代表性的自然与人文景观</p>
+                </div>
+                <div class="featured-grid">
+                    <!-- 特色景点1 -->
+                   <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="八达岭长城">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="长城">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>八达岭长城</h3>
+                            <p>位于北京市延庆区，是明长城中保存最好、也最具代表性的一段，被誉为"天下九塞之一"。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 北京</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 特色景点 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="九寨沟">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1660628364964-1e712feea45f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=876" alt="九寨沟">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>九寨沟</h3>
+                            <p>位于四川省阿坝藏族羌族自治州，以翠海、叠瀑、彩林、雪峰、藏情、蓝冰"六绝"著称于世。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 四川</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 特色景点 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="漓江风光">
+                        <div class="attraction-img">
+                            <img src="https://plus.unsplash.com/premium_photo-1664365805332-abd4bd4bf295?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="漓江">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>漓江风光</h3>
+                            <p>桂林漓江风景区是世界上规模最大、风景最美的岩溶山水游览区，是桂林风光的精华。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 广西</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 特色景点 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="西湖">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1711700320048-76fb7bed9232?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774" alt="西湖">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>杭州西湖</h3>
+                            <p>西湖以其湖光山色和众多的名胜古迹而闻名中外，被誉为人间天堂，是中国著名的旅游胜地。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 浙江</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 热门景点展示 -->
+        <section class="attractions">
+            <div class="container">
+                <div class="section-title">
+                    <h2>热门景点推荐</h2>
+                    <p>精选全国各地最受欢迎的旅游目的地</p>
+                </div>
+                <div class="attraction-grid">
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="八达岭长城">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="长城">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>八达岭长城</h3>
+                            <p>位于北京市延庆区，是明长城中保存最好、也最具代表性的一段，被誉为"天下九塞之一"。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 北京</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="九寨沟">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1660628364964-1e712feea45f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=876" alt="九寨沟">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>九寨沟</h3>
+                            <p>位于四川省阿坝藏族羌族自治州，以翠海、叠瀑、彩林、雪峰、藏情、蓝冰"六绝"著称于世。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 四川</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="漓江风光">
+                        <div class="attraction-img">
+                            <img src="https://plus.unsplash.com/premium_photo-1664365805332-abd4bd4bf295?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="漓江">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>漓江风光</h3>
+                            <p>桂林漓江风景区是世界上规模最大、风景最美的岩溶山水游览区，是桂林风光的精华。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 广西</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="西湖">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1711700320048-76fb7bed9232?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774" alt="西湖">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>杭州西湖</h3>
+                            <p>西湖以其湖光山色和众多的名胜古迹而闻名中外，被誉为人间天堂，是中国著名的旅游胜地。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 浙江</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="黄山">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1698045113236-6b787b8abf5f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8JUU5JUJCJTg0JUU1JUIxJUIxfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500" alt="黄山">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>黄山</h3>
+                            <p>黄山以奇松、怪石、云海、温泉、冬雪"五绝"著称于世，拥有"天下第一奇山"之称。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 安徽</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="布达拉宫">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1701913997567-746dd137eff6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUU1JUI4JTgzJUU4JUJFJUJFJUU2JThCJTg5JUU1JUFFJUFCfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500" alt="布达拉宫">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>布达拉宫</h3>
+                            <p>位于西藏拉萨市区西北的玛布日山上，是世界上海拔最高，集宫殿、城堡和寺院于一体的宏伟建筑。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 西藏</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="张家界">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1666728975757-488b391ac98c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774" alt="张家界">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>张家界国家森林公园</h3>
+                            <p>位于湖南省张家界市，是中国第一个国家森林公园，以奇特的石英砂岩峰林地貌著称。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 湖南</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="鼓浪屿">
+                        <div class="attraction-img">
+                            <img src="https://images.unsplash.com/photo-1709229919646-3699ead369b5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1161" alt="鼓浪屿">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>鼓浪屿</h3>
+                            <p>位于福建省厦门市，有"海上花园"之称，岛上气候宜人，四季如春，无车马喧嚣，鸟语花香。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 福建</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- 景点卡片 -->
+                    <a href="#" class="attraction-card nav-link" data-page="attraction-detail" data-attraction="秦始皇兵马俑">
+                        <div class="attraction-img">
+                            <img src="https://qcloud.dpfile.com/pc/_3dwnzWQMGDawatQzaxBRlaZH-KEvov8r2ra1x9UR95t8HHXZBGD9g9R-cfMaIzW.jpg" alt="兵马俑">
+                        </div>
+                        <div class="attraction-info">
+                            <h3>秦始皇兵马俑</h3>
+                            <p>位于陕西省西安市临潼区，是秦始皇陵的陪葬坑，被誉为"世界第八大奇迹"。</p>
+                            <div class="attraction-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> 陕西</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 热门推荐区域 -->
+        <section class="hot-recommendations">
+            <div class="container">
+                <div class="section-title">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- 省份列表页 -->
+    <section id="provinces" class="page">
+        <div class="container">
+            <div class="section-title">
+                <h2>中国各省景点</h2>
+                <p>探索中国34个省级行政区的独特魅力</p>
+            </div>
+            
+            <div class="province-list">
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="北京">北京</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="天津">天津</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="河北">河北</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="山西">山西</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="内蒙古">内蒙古</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="辽宁">辽宁</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="吉林">吉林</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="黑龙江">黑龙江</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="上海">上海</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="江苏">江苏</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="浙江">浙江</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="安徽">安徽</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="福建">福建</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="江西">江西</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="山东">山东</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="河南">河南</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="湖北">湖北</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="湖南">湖南</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="广东">广东</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="广西">广西</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="海南">海南</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="重庆">重庆</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="四川">四川</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="贵州">贵州</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="云南">云南</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="西藏">西藏</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="陕西">陕西</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="甘肃">甘肃</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="青海">青海</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="宁夏">宁夏</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="新疆">新疆</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="台湾">台湾</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="香港">香港</a>
+                <a href="#" class="province-item nav-link" data-page="province-detail" data-province="澳门">澳门</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 省份详情页 -->
+    <section id="province-detail" class="page">
+        <div class="province-header">
+            <div class="container">
+                <h1 id="province-name">北京市</h1>
+                <p class="province-intro" id="province-intro">北京，简称"京"，是中华人民共和国的首都，是全国的政治中心、文化中心，是世界著名古都和现代化国际城市。</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="attractions">
+                <div class="section-title">
+                    <h2>热门景点</h2>
+                </div>
+                <div class="attraction-grid" id="province-attractions">
+                    <!-- 景点会通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 景点详情页 -->
+    <section id="attraction-detail" class="page">
+        <div class="container">
+            <div class="attraction-detail">
+                <div class="detail-header">
+                    <h1 id="detail-title">八达岭长城</h1>
+                    <div class="detail-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> <span id="detail-location">北京市延庆区</span></span>
+                        <span><i class="fas fa-star"></i> <span id="detail-rating">4.8</span></span>
+                        <span><i class="fas fa-clock"></i> 建议游玩: <span id="detail-duration">3-4小时</span></span>
+                    </div>
+                </div>
+                
+                <div class="detail-content">
+                    <div class="detail-main">
+                        <div class="detail-gallery">
+                            <div class="gallery-main">
+                                <img id="detail-main-img" src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="景点主图">
+                            </div>
+                            <div class="gallery-thumb">
+                                <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="景点图片1">
+                            </div>
+                        </div>
+                        
+                        <div class="detail-description">
+                            <h2>景点介绍</h2>
+                            <p id="detail-description">八达岭长城，位于北京市延庆区军都山关沟古道北口。是中国古代伟大的防御工程万里长城的重要组成部分，是明长城的一个隘口。八达岭长城为居庸关的重要前哨，古称"居庸之险不在关而在八达岭"。</p>
+                            
+                            <h2>历史背景</h2>
+                            <p id="detail-history">八达岭长城史称天下九塞之一，是万里长城的精华，在明长城中，独具代表性。该段长城地势险峻，居高临下，是明代重要的军事关隘和首都北京的重要屏障。</p>
+                            
+                            <h2>旅游贴士</h2>
+                            <p id="detail-tips">八达岭长城最佳游览时间为4月-10月。建议穿着舒适的鞋子，因为需要步行较长的距离。景区内有缆车可供选择，可以节省体力。夏季注意防晒，冬季注意保暖。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-info">
+                        <div class="info-item">
+                            <h3>开放时间</h3>
+                            <p id="detail-open-time">旺季: 6:30-19:00 (4月1日-10月31日)<br>淡季: 7:00-18:00 (11月1日-3月31日)</p>
+                        </div>
+                        
+                        <div class="info-item">
+                            <h3>门票价格</h3>
+                            <p id="detail-ticket">旺季: 40元/人<br>淡季: 35元/人</p>
+                        </div>
+                        
+                        <div class="info-item">
+                            <h3>交通指南</h3>
+                            <p id="detail-transport">1. 德胜门乘坐877路公交车直达八达岭长城<br>2. 北京北站乘坐市郊铁路S2线<br>3. 自驾车沿京藏高速公路行驶至八达岭长城出口</p>
+                        </div>
+                        
+                        <div class="info-item">
+                            <h3>最佳季节</h3>
+                            <p id="detail-season">春季和秋季是最佳游览季节，天气宜人，风景优美。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 研学指南页 -->
+    <section id="travel-guide" class="page">
+        <div class="container">
+            <div class="section-title">
+                <h2>研学指南</h2>
+                <p>为您的旅行提供专业指导和建议</p>
+            </div>
+            
+            <div class="attraction-grid">
+                <div class="attraction-card">
+                    <div class="attraction-img">
+                        <img src="" alt="文化体验">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>文化体验指南</h3>
+                        <p>深入了解中国各地文化习俗，让您的旅行更加丰富多彩。</p>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-img">
+                        <img src="https://images.unsplash.com/photo-1735759865375-4404b6c506e2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1512" alt="摄影技巧">
+                    </div>
+                    <div class="attraction-info">
+                        <h3>旅行摄影技巧</h3>
+                        <p>掌握旅行摄影技巧，捕捉最美的风景和人文瞬间。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
